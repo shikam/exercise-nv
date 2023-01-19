@@ -39,8 +39,10 @@ def find_personal_emails(ignore_emails, repo_path):
     return found_emails
 
 
-ignore_file = '/home/sk893122/ex-invid/exercise-nv/.ignore_emails'
-repo_path = '/home/sk893122/ex-invid/exercise-nv/'
+#ignore_file = '/home/sk893122/ex-invid/exercise-nv/.ignore_emails'
+#repo_path = '/home/sk893122/ex-invid/exercise-nv/'
+ignore_file = '/home/sk893122/ex-invid/exercise-nv/exercise-nv/.ignore_emails'
+repo_path = '/home/sk893122/ex-invid/exercise-nv/exercise-nv'
 
 ignore_emails = ignore_emails(ignore_file)
 found_emails = find_personal_emails(ignore_emails, repo_path)
